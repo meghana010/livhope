@@ -1,0 +1,144 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+ 
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color:lightblue;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: lightblue;
+    display: none;
+    overflow: hidden;
+}
+
+.faq-page:after {
+    content: '\02795';
+    
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    
+}
+p{
+    font-size: larger;
+}
+#cmt{
+    width:35%;
+    height: 80px;
+    border-radius:8px;
+    border-width: 2px;
+    margin-left:30px;
+    
+}
+.email{
+    width:30%;
+    height: 20px;
+    border-radius:3px ;
+    border-width: 2px;
+    margin-left:30px;
+    
+}
+.email:hover{
+    box-shadow: 2px 2px 5px #333;
+    border:2px solid #333;
+}
+#cmt:hover{
+    box-shadow: 2px 2px 5px #333;
+    border:2px solid #333;
+}
+#div2{
+    background-color: beige;
+    height: 400px;
+  }
+  #div3{
+
+    float:left;
+    width:100%;
+    font-size: 20px;
+    text-align:center;
+
+  }
+  main{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiJE6ippGZg24ZWDZ-dyna0sgBd7wxjY6pEw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0%;
+    padding:0%;
+   
+  }
+  
+  pre{
+    font-size: larger;
+}
+#logo1{
+    border-radius:80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;  
+    height:160px;
+    width:160px;
+    
+
+}
+#d1{
+    background-color: lightblue;
+    margin:0%;
+    padding:0%;
+    height:180px;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    border-color:white;
+    color: black;
+    margin-left :30px;;
+    border-radius:5px;
+    
+}

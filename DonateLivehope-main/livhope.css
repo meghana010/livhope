@@ -1,0 +1,125 @@
+#logo1{
+    border-radius:90%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;  
+    height:160px;
+    width:160px;
+    
+
+}
+#legend {
+   font-family:Arial;
+   font-weight: bold;
+   font-size:20px;
+    padding: 2px;
+    margin-left: calc(50% - 35px - 40px);
+}
+.dinfo{
+    width:450px;
+    border-color: black;
+    border-radius:5px;
+
+}
+.dinfo:hover{
+    box-shadow: 2px 2px 5px #333;
+    border:2px solid #333;
+
+
+    
+}
+.large{
+    width:35%;
+    height: 100px;
+    border-radius:5px;
+
+
+}
+.large:hover{
+    box-shadow: 2px 2px 5px #333;
+    border:2px solid #333;
+}
+#edit{
+    height: 50px;
+    width: 100px;
+    border-color:white;
+    color: black;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:5px;
+
+
+}
+
+#pay:hover{
+    box-shadow: 2px 2px 5px #333;
+    border:2px solid #333;
+}
+.myfile:hover{
+    box-shadow: 2px 2px 5px #333;
+    border:2px solid #333;
+}
+#edit:hover{
+    box-shadow: 2px 2px 5px #333;
+    border:2px solid #333;
+}
+
+  #div2{
+    background-color: beige;
+    height: 350px;
+  }
+  #div3{
+
+    float:left;
+    width:50%;
+    font-size: 25px;
+    text-align: center;
+
+  }
+  #div4{
+    float:left;
+    width:50%;
+    font-size: 25px;
+    text-align: center;
+
+
+  }
+  .btn{
+    height: 50px;
+    width: 150px;
+    border-color:white;
+    color: black;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:5px;
+    
+
+  }
+  #div1{
+    font-weight :500;
+    background-image:url('https://miro.medium.com/max/1200/1*4XRAX4obUOvMVqWibVCneQ.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+   
+}
+.info{
+  width:330px;
+  border-color: black;
+  border-radius:5px;
+
+}
+.chbox{
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+
+   
+  
